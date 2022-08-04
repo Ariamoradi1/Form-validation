@@ -15,25 +15,19 @@ pElem.innerHTML = 'your username must be more than 8 character'
 pElem.style.color = 'red'
 
 
-} else {
+} else if (inputPasswordElem.value.length < 12 {
 
 
- pElem.innerHTML = 'welcome' + ' ' + inputTextElem.value
- pElem.style.color = 'green'
+ pElem.innerHTML = 'your Password must be more than 12 character'
+    pElem.style.color = 'red'
 
 }
 
-if (inputPasswordElem.value.length < 12) {
-
-    pElem.innerHTML = 'your Password must be more than 12 character'
-    pElem.style.color = 'red'
+else {
     
     
-    } else {
-    
-    
-            pElem.innerHTML = 'thats right user!'
-            pElem.style.color = 'green'
+   pElem.innerHTML = 'welcome' + ' ' + inputTextElem.value
+   pElem.style.color = 'green'
     
     }
 
