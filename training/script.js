@@ -18,7 +18,7 @@ pElem.style.color = 'red'
 } else {
 
 
- pElem.innerHTML = 'thats right user!'
+ pElem.innerHTML = 'welcome' + ' ' + inputTextElem.value
  pElem.style.color = 'green'
 
 }
